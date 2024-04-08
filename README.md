@@ -33,6 +33,12 @@ docker run -p 3040:3040 missuo/freegpt35
 
 ### Docker Compose
 
+
+### Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flxzh%2FFreeGPT35&project-name=FreeGPT35&repository-name=FreeGPT35)
+
+
 #### Only FreeGPT35 Service
 
 ```bash
@@ -132,4 +138,4 @@ You can use it in any app, such as OpenCat, Next-Chat, Lobe-Chat, Bob, etc. Feel
 - Original Author: [https://github.com/PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT)
 
 ## License
-MIT License
+AGPL 3.0 License

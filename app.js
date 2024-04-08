@@ -252,11 +252,7 @@ async function handleChatCompletion(req, res) {
     res.write(
       JSON.stringify({
         status: false,
-        error: {
-          message:
-            "An error happened, please make sure your request is SFW, or use a jailbreak to bypass the filter.",
-          type: "invalid_request_error",
-        },
+        error: error,
       })
     );
     res.end();

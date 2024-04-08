@@ -1,4 +1,12 @@
 {
+  "name": "FreeGPT35",
+  "version": "1.0.0",
+  "private": false,
+  "license": "mit",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "vercel --prod"
+  },
   "dependencies": {
     "axios": "^1.6.8",
     "express": "^4.19.2"
